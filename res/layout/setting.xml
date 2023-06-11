@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="300dp"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:background="#234567"
+        android:textColor="#ffffff"
+     android:id="@+id/textView1"
+     android:layout_width="match_parent"
+     android:gravity="center"
+     android:layout_height="50dp"
+     android:text="مدت زمان روشن ماندن چراغ قوه"
+     android:layout_marginBottom="5dp"
+     android:textSize="14sp" />
+
+    <ScrollView
+        android:padding="10dp"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+            
+             
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_margin="10dp"
+     android:gravity="right"
+     android:orientation="vertical" >
+
+     <RadioGroup
+         android:id="@+id/group1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         
+         android:orientation="vertical" >
+
+         <RadioButton
+             android:textColor="#777777"
+             android:id="@+id/five"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:button="@null"
+              android:gravity="right|center"
+             android:drawableRight="@android:drawable/btn_radio"
+             android:text="پنج دقیقه" />
+
+         <RadioButton
+             android:textColor="#777777"
+             android:id="@+id/ten"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:button="@null"
+              android:gravity="right|center"
+             android:drawableRight="@android:drawable/btn_radio"
+             android:text="ده دقیقه" />
+
+         <RadioButton
+             android:textColor="#777777"
+             android:id="@+id/thirty"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:button="@null"
+              android:gravity="right|center"
+             android:drawableRight="@android:drawable/btn_radio"
+             android:text="نیم ساعت" />
+
+         <RadioButton
+             android:textColor="#777777"
+             android:id="@+id/sixty"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:button="@null"
+             android:drawableRight="@android:drawable/btn_radio"
+             android:gravity="right|center"
+             android:text="یک ساعت" />
+         <RadioButton
+             android:textColor="#777777"
+             android:id="@+id/custom_time"
+              android:gravity="right|center"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:button="@null"
+             android:enabled="false"
+             android:drawableRight="@android:drawable/btn_radio"
+             android:text="زمان دلخواه:تنظیم نشده است" />
+     </RadioGroup>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal" 
+         android:gravity="right"      >
+   
+         <LinearLayout
+             android:layout_weight="2"
+             android:layout_height="50dp"
+             android:layout_width="match_parent"
+             android:orientation="horizontal" 
+             
+             >
+             
+              <TextView 
+             android:visibility="gone"
+             android:layout_marginRight="5dp"
+             android:id="@+id/tv_time"
+             android:textColor="#777777"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="دقیقه"/>
+         <EditText
+             android:layout_marginRight="5dp"
+             android:visibility="gone"
+             android:inputType="number"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:id="@+id/et_time" 
+             />
+         </LinearLayout>
+
+     <Button
+         android:layout_marginLeft="2dp"
+         android:gravity="center"
+         android:layout_weight="1"
+         android:padding="2dp"
+         android:id="@+id/btn_edit_custom_time"
+         android:layout_width="match_parent" 
+         android:background="@drawable/rectfiruze"
+         android:layout_height="50dp"
+         android:textColor="#ffffff"
+         android:text="ویرایش زمان دلخواه"
+         />
+     </LinearLayout>
+ </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+   
+ <LinearLayout 
+             android:layout_height="50dp"
+             android:layout_width="match_parent"
+             android:orientation="horizontal"     >
+      
+         <TextView 
+             android:layout_weight="1"
+        android:background="#f14a5f"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:id="@+id/setting_cancel"
+        android:text="منصرف شدم"/>
+          <TextView 
+        android:background="#5cf595"
+        android:textColor="#ffffff"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:id="@+id/setting_ok"
+        android:text="خوبه"/>
+ </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:background="#234567"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="درباره برنامه"/>
+    <TextView 
+                android:textColor="#777777"
+      
+        android:padding="10dp"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="@string/about3"
+        />
+     <TextView 
+        android:background="#ff9900"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:id="@+id/about_exit"
+        android:text="خُب"/>
+    
+
+</LinearLayout>

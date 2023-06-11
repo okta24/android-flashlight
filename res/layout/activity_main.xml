@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/radial_background"
+    android:paddingTop="10dp"
+    tools:context=".MainActivity" >
+ 
+    <ImageButton
+        android:id="@+id/btnSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dip"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:src="@drawable/btn_switch_off" />
+
+    <ImageButton
+        android:id="@+id/btnsound"
+         android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="41dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/unmute" />
+
+    <ImageButton
+        android:id="@+id/btnabout"
+         android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/btncomment"
+        android:layout_below="@+id/btncomment"
+        android:layout_marginTop="31dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/about" />
+    
+    <ImageButton
+        android:id="@+id/btnclose"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/btnabout"
+        android:layout_below="@+id/btnabout"
+        android:layout_marginTop="31dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/close" />
+    
+    
+    <ImageButton
+        android:id="@+id/btnsetting"
+         android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/btnsound"
+        android:layout_below="@+id/btnsound"
+        android:layout_marginTop="31dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/timer" />
+    
+    <ImageButton
+        android:id="@+id/btncomment"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/btnsetting"
+        android:layout_below="@+id/btnsetting"
+        android:layout_marginTop="31dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/comment" />
+    
+    <ir.adad.client.Banner
+        android:id="@+id/banner_ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/btnSwitch"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/cornergradint"
+        android:gravity="center"
+        android:text="00:00 "
+        android:textColor="@color/White_Snow"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+   
+</RelativeLayout>

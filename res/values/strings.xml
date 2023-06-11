@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"> چراغ قوه زماندار</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="yes">خُب</string>
+    <string name="about1">اطلاعات</string>
+    <string name="about3">توجه:\n در صورت خاتمه کار شما با چراغ قوه برنامه را از طریق دکمه برگشت گوشی و یا دکمه خروج برنامه ببندید\n تا فلاش گوشی بتواند توسط سایر برنامه ها بکار گرفته شود \n\n چراغ قوه زماندار \n نسخه:1.5 \n طراح و برنامه نویس: \n  شهرویی</string>
+      <string name="exit">خروج از برنامه</string>
+    <string name="mayel">آیا مایل به خروج از برنامه هستید؟</string>
+    <string name="yes2">بلی</string>
+    <string name="no2">خیر</string>
+   
+
+</resources>

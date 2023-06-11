@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   <TextView 
+        android:background="#234567"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="خروج از برنامه"/>
+   
+    <TextView 
+        android:textColor="#777777"
+        android:padding="10dp"
+         android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:text="@string/mayel"
+        />
+    
+    <LinearLayout 
+             android:layout_height="50dp"
+             android:layout_width="match_parent"
+             android:orientation="horizontal"     >
+             
+             
+      
+         <TextView 
+             android:layout_weight="1"
+        android:background="#f14a5f"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:id="@+id/exit_ok"
+        android:text="بله"/>
+         
+          <TextView 
+             android:layout_weight="1"
+        android:background="#5bc0de"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:id="@+id/exit_comment"
+        android:text="نظر میدم"/>
+          <TextView 
+        android:background="#5cf595"
+        android:textColor="#ffffff"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:id="@+id/exit_cancel"
+        android:text="خیر"/>
+ </LinearLayout>
+
+</LinearLayout>
